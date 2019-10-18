@@ -19,6 +19,7 @@ Lets setup the Sagemaker notebook that we will be executing the lab in. Please f
 
 1) Please log into the AWS Console and search for **Amazon Sagemaker**. Once in the Sagemaker console select the **Notebook instances**. From there click on **Create Notebook instance**. You will be prompted with the Create notebook instance, please enter the following info:
 	* Notebook instance name - Enter: *rga-aws-ai-workshop-pod-NNNN-notebook*
+	  
 	  where *NNNN*=the pod number you were assigned
 	* Notebook instance type - Enter: *ml.t3.large*
 	* Under Additional configuration - Voume size in GSB: Enter *20*
