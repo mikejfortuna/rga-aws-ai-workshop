@@ -23,10 +23,10 @@ Lets setup the Sagemaker notebook that we will be executing the lab in. Please f
 	* Notebook instance type - Enter: *ml.t3.large*
 	* Under Additional configuration - Voume size in GSB: Enter *20*
 
-As shown below:
+	As shown below:
 ![create note book](images/create-notebook-1.png "Create Notebook Main Page")
 
-2) Scroll down to **Permissions and encryption** IAM role and click the dropdown box and select *Create a new role* the following will show:
+2) Scroll down to **Permissions and encryption**, IAM role and click the dropdown box and select *Create a new role* a box will show. Be sure to configure as follows:
 ![create note book](images/create-notebook-2.png "Create Notebook IAM Role")
 
 ![create note book](images/create-notebook-3.png "Create Notebook IAM Permissions")
