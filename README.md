@@ -5,14 +5,10 @@ This repo will be used to demonstrate the AWS AI/ML service porfolio via a Sagem
 **Prerequisites:**
 * Available AWS Account with a role/user with Administrator permissions
 * Limits raised to support the following (per partipant):
-	Running Sagemaker Notebook:
-	ml.t3.large
 
-	Running Sagemaker Training Job:
-	ml.m5.large
-
-	Running Sagemaker Hosting Endpoint:
-	ml.m5.large
+	**Run Sagemaker Notebook:** *ml.t3.large*
+	**Run Sagemaker Training Job:** *ml.m5.large*
+	**Run Sagemaker Hosting Endpoint:** *ml.m5.large*
 
 
 **Notebook Setup Instructions**
