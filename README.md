@@ -1,6 +1,7 @@
 # R/GA Amazon Web Services Workshop
 This repo will be used to demonstrate the AWS AI/ML service porfolio via a Sagemaker Jupyter notebook.
 
+
 **Prerequisites:**
 * Available AWS Account with a role/user with Administrator permissions
 * Limits raised to support the following (per partipant):
@@ -13,9 +14,17 @@ This repo will be used to demonstrate the AWS AI/ML service porfolio via a Sagem
 	Running Sagemaker Hosting Endpoint:
 	ml.m5.large
 
-**Notebook Setup Instructions**
 
+**Notebook Setup Instructions**
+Lets setup the Sagemaker notebook that we will be executing the lab in. Please follow the process below...
+
+1) Please log into the AWS Console and search for **Amazon Sagemaker**. Once in the Sagemaker console select the **Notebook instances**. From there click on **Create Notebook instance**. You will be prompted with the Create notebook instance, please enter the following info:
+* Notebook instance name - Enter: *rga-aws-ai-workshop-pod-NNNN-notebook* where NNNN=the pod number you were assigned
+* Notebook instance type - Enter: *ml.t3.large*
+* Under Additional configuration - Voume size in GSB: Enter *20*
+As shown below:
 ![create note book](images/create-notebook-1.png "Create Notebook Main Page")
+
 
 ![create note book](images/create-notebook-2.png "Create Notebook IAM Role")
 
@@ -38,7 +47,5 @@ This repo will be used to demonstrate the AWS AI/ML service porfolio via a Sagem
 
 
 
-rga-aws-ai-workshop
-Repo used for the AWS R/GA AI Workshop
 rga-aws-ai-workshop-pod-9998-notebook
 
