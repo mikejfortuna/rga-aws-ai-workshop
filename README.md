@@ -19,13 +19,14 @@ This repo will be used to demonstrate the AWS AI/ML service porfolio via a Sagem
 Lets setup the Sagemaker notebook that we will be executing the lab in. Please follow the process below...
 
 1) Please log into the AWS Console and search for **Amazon Sagemaker**. Once in the Sagemaker console select the **Notebook instances**. From there click on **Create Notebook instance**. You will be prompted with the Create notebook instance, please enter the following info:
-* Notebook instance name - Enter: *rga-aws-ai-workshop-pod-NNNN-notebook* where NNNN=the pod number you were assigned
-* Notebook instance type - Enter: *ml.t3.large*
-* Under Additional configuration - Voume size in GSB: Enter *20*
+	* Notebook instance name - Enter: *rga-aws-ai-workshop-pod-NNNN-notebook* where NNNN=the pod number you were assigned
+	* Notebook instance type - Enter: *ml.t3.large*
+	* Under Additional configuration - Voume size in GSB: Enter *20*
+
 As shown below:
 ![create note book](images/create-notebook-1.png "Create Notebook Main Page")
 
-
+2) Scroll down to **Permissions and encryption** IAM role and click the dropdown box and select *Create a new role* the following will show:
 ![create note book](images/create-notebook-2.png "Create Notebook IAM Role")
 
 ![create note book](images/create-notebook-3.png "Create Notebook IAM Permissions")
