@@ -22,7 +22,7 @@ Lets setup the Sagemaker notebook that we will be executing the lab in. Please f
 	  
 	  where *NNNN*=the pod number you were assigned
 	* Notebook instance type - Enter: *ml.t3.large*
-	* Under Additional configuration - Voume size in GSB: Enter *20*
+	* Under Additional configuration - Voume size in GB: Enter *20*
 
 	As shown below:
 ![create note book](images/create-notebook-1.png "Create Notebook Main Page")
@@ -47,7 +47,4 @@ Lets setup the Sagemaker notebook that we will be executing the lab in. Please f
 ![create note book](images/update-iam-sagemaker-role-5.png "IAM Role with Policies")
 
 
-
-
-rga-aws-ai-workshop-pod-9998-notebook
 
