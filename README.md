@@ -35,11 +35,12 @@ Lets setup the Sagemaker notebook that we will be executing the lab in. Please f
 
 4) Under **Git repositories** select:
 	* Repository - Enter: *Clone a public Git repository to this notebook instance only*
-	* Git repository URL - Enter *https://github.com/mikejfortuna/rga-aws-ai-workshop*
+	* Git repository URL - Enter: *https://github.com/mikejfortuna/rga-aws-ai-workshop*
 ![create note book](images/create-notebook-4.png "Create Notebook Git Repo")
 Once everything is configured click **Create notebook instance**. The notebook will take several minutes to complete provisioning. When its complete the status will show **InService**. Under Actions click *Open Jupyter*. This will open another browser tab to your Sagemaker notebook instance. You should be entered directly in the Git repo you cloned. Please click on the *rga_ai_lab1-2_airbnb.ipynb* notebook to begin the lab.
 
-5) 
+5) Please read the introduction to learn more about the lab and the services. The first code block imports the required dependencies please run that code block.
+   Move to the second code block and update the *pod* variable with the number provided by one of the proctors also be sure *region* is set to the correct region you are operating in, once confirmed please execute the code block. You should see the output that shows the IAM role as well as the S3 bucket name that will be created as shown below:
 ![create note book](images/run-notebook-1.png "Run Notebook and update pod")
 
 ![create note book](images/update-iam-sagemaker-role-1.png "Find IAM")
