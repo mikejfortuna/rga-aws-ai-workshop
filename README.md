@@ -56,9 +56,10 @@ Once everything is configured click **Create notebook instance**. The notebook w
 ![create note book](images/update-iam-sagemaker-role-4.png "Update IAM Role")
 
 10) You need to add the following policies to execute the rest of the lab:
-     * IAMFullAccess
-     * AmazonS3FullAccess
-     * ComprehendFullAccess
+     * *IAMFullAccess*
+     * *AmazonS3FullAccess*
+     * *ComprehendFullAccess*
+    
     Click on the **Attach policies** button, search for the above policies and select them. Once they are all selected click **Attach policy**.
 ![create note book](images/update-iam-sagemaker-role-5.png "IAM Role with Policies")
    Once all polices are attached you can go back to the Sagemaker notebook and execute the remainder of the lab from there.
