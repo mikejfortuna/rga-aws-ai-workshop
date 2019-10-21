@@ -10,7 +10,7 @@ This repo will be used to demonstrate the AWS AI/ML service porfolio via a Sagem
 	
 	**Run Sagemaker Training Job:** *ml.m5.large*
 	
-	**Run Sagemaker Hosting Endpoint:** *ml.m5.large*
+	**Run Sagemaker Hosting Endpoint:** *ml.t2.medium*
 
 
 **Notebook Setup Instructions**
@@ -40,7 +40,7 @@ Lets setup the Sagemaker notebook that we will be executing the lab in. Please f
 Once everything is configured click **Create notebook instance**. The notebook will take several minutes to complete provisioning. When its complete the status will show **InService**. Under Actions click *Open Jupyter*. This will open another browser tab to your Sagemaker notebook instance. You should be entered directly in the Git repo you cloned. Please click on the *rga_ai_lab1-2_airbnb.ipynb* notebook to begin the lab.
 
 5) Please read the introduction to learn more about the lab and the services. The first code block imports the required dependencies please run that code block.
-   Move to the second code block and update the *pod* variable with the number provided by one of the proctors also be sure *region* is set to the correct region you are operating in, once confirmed please execute the code block. You should see output that shows the IAM role as well as the S3 bucket name. Please make note of the IAM role, the output will be shown below:
+   Move to the second code block and update the *pod* variable with the number provided by the proctor also be sure *region* is set to the correct region you are operating in, once confirmed please execute the code block. You should see output that shows the IAM role as well as the S3 bucket name. Please make note of the IAM role, the output will be shown below:
 ![create note book](images/run-notebook-1.png "Run Notebook and update pod")
 
 6) Go back to the Sagemaker Console tab and select the AWS icon on the upper left-hand to be allow you to find other AWS Services. From the *Find Services* box enter **IAM** as follows:
