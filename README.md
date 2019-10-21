@@ -18,11 +18,11 @@ This repo will be used to demonstrate the AWS AI/ML service porfolio via a Sagem
 Lets setup the Sagemaker notebook that we will be executing the lab in. Please follow the process below...
 
 1) Please log into the AWS Console and search for **Amazon Sagemaker**. Once in the Sagemaker console select the **Notebook instances**. From there click on **Create Notebook instance**. You will be prompted with the Create notebook instance, please enter the following info:
-	* Notebook instance name - Enter: *rga-aws-ai-workshop-pod-NNNN-notebook*
+	* **Notebook instance name** - Enter: *rga-aws-ai-workshop-pod-NNNN-notebook*
 	  
 	  where *NNNN*=the pod number you were assigned
-	* Notebook instance type - Enter: *ml.t3.large*
-	* Under Additional configuration - Voume size in GB: Enter *20*
+	* **Notebook instance type** - Enter: *ml.t3.large*
+	* **Under Additional configuration** - Voume size in GB: Enter *20*
 
 	As shown below:
 ![create note book](images/create-notebook-1.png "Create Notebook Main Page")
@@ -30,10 +30,16 @@ Lets setup the Sagemaker notebook that we will be executing the lab in. Please f
 2) Scroll down to **Permissions and encryption**, IAM role and click the dropdown box and select *Create a new role* a box will show. Be sure to configure as follows:
 ![create note book](images/create-notebook-2.png "Create Notebook IAM Role")
 
+3) Keep the rest of the **Permissions and encryption** to the defaults as follows:
 ![create note book](images/create-notebook-3.png "Create Notebook IAM Permissions")
 
+4) Under **Git repositories** select:
+	* Repository - Enter: *Clone a public Git repository to this notebook instance only*
+	* Git repository URL - Enter *https://github.com/mikejfortuna/rga-aws-ai-workshop*
 ![create note book](images/create-notebook-4.png "Create Notebook Git Repo")
+Once everything is configured click **Create notebook instance**. The notebook will take several minutes to complete provisioning. When its complete the status will show **InService**. Under Actions click *Open Jupyter*. This will open another browser tab to your Sagemaker notebook instance. You should be entered directly in the Git repo you cloned. Please click on the *rga_ai_lab1-2_airbnb.ipynb* notebook to begin the lab.
 
+5) 
 ![create note book](images/run-notebook-1.png "Run Notebook and update pod")
 
 ![create note book](images/update-iam-sagemaker-role-1.png "Find IAM")
