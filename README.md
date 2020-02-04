@@ -6,10 +6,10 @@ This repo will be used to demonstrate the AWS AI/ML service porfolio via a Sagem
 * Available AWS Account with a role/user with Administrator permissions
 * Limits raised to support the following (per partipant):
 
-	**Run Sagemaker Notebook:** *ml.t3.large*
-	
+	**Run Sagemaker Notebook:** *ml.t2.large*
+
 	**Run Sagemaker Training Job:** *ml.m5.large*
-	
+
 	**Run Sagemaker Hosting Endpoint:** *ml.t2.medium*
 
 
@@ -19,9 +19,9 @@ Lets setup the Sagemaker notebook that we will be using to execute the lab. Plea
 
 1) Log into the AWS Console (AdministratorAccess permissions) and search for **Amazon Sagemaker**. Once in the Sagemaker console, select **Notebook instances**. From there click on **Create Notebook instance**. You will be prompted with a Create notebook window, please enter the following info:
 	* **Notebook instance name** - Enter: *rga-aws-ai-workshop-pod-NNNN-notebook*
-	  
+
 	  where *NNNN*=the pod number you were assigned
-	* **Notebook instance type** - Enter: *ml.t3.large*
+	* **Notebook instance type** - Enter: *ml.t2.large*
 	* **Under Additional configuration** - Voume size in GB: Enter *20*
 
 	As shown below:
@@ -59,9 +59,7 @@ Once everything is configured click **Create notebook instance**. The notebook w
      * *IAMFullAccess*
      * *AmazonS3FullAccess*
      * *ComprehendFullAccess*
-    
+
     Click on the **Attach policies** button, search for the above policies and select them. Once they are all selected click **Attach policy**.
 ![create note book](images/update-iam-sagemaker-role-5.png "IAM Role with Policies")
    Once all polices are attached you can go back to the Sagemaker notebook and execute the remainder of the lab.
-
-
